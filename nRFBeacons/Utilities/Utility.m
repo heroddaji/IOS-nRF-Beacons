@@ -43,7 +43,7 @@ NSString* const EventEnter = @"In Range";
 {
     static NSArray *actions;
     if (actions == nil) {
-        actions = @[@"Show Mona Lisa", @"Open Website", @"Play Alarm"];
+        actions = @[@"Show Mashups", @"Open Website", @"Play Alarm"];
     }
     return actions;
 }
@@ -89,7 +89,7 @@ NSString* const EventEnter = @"In Range";
 {
     static NSArray *actionImages;
     if (actionImages == nil) {
-        actionImages = @[[UIImage imageNamed:@"Monalisa"],
+        actionImages = @[[UIImage imageNamed:@"mashupslogo"],
                          [UIImage imageNamed:@"Website"],
                          [UIImage imageNamed:@"Alarm"]];
     }

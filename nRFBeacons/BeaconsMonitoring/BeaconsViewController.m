@@ -272,7 +272,7 @@
 
 -(UIImage *) getActionImage:(NSString *)imageName
 {
-    if ([imageName isEqualToString:@"Show Mona Lisa"]) {
+    if ([imageName isEqualToString:@"Show Mashups"]) {
         return [UIImage imageNamed:@"mashupslogo"];
     }
     if ([imageName isEqualToString:@"Open Website"]) {
